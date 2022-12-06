@@ -3,41 +3,53 @@ body,
 html{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    margin: 0;
 }
 .container{
+    width: 100%;
+    background-color: #1f2937;
     display: flex;
+    gap: 3px;
+    align-items: center;
     flex-wrap: wrap;
-    flex: 1 1 auto;
-    align-content: center;
+  
+}
+.item{
+    flex: 1
 }
 .hero{
-    font-size:30px;
-    font-weight: normal;
-    word-spacing: -9px;
-    justify-items: flex-start;
+    font-weight: lighter;
+    font-size: 35px;
+    word-spacing: -20px;
+    margin-left: 10px;
+    line-height: 36px;
+    color: #e5e7eb;
 }
 .hero .emphasis{
-    font-style: normal;
+    font-size: 40px;
+    letter-spacing: 5px;
     font-weight: bolder;
-    font-size: 35px;
-    letter-spacing: 3px;
-    
+    font-style: normal;
+    color: #f9faf8;
 }
-links{
-    flex: 0 1 auto;
+div{
+    width:400px;
+ 
+}
+.links{
     display: flex;
-    justify-self: flex-end;
-   
-}
-link{
     list-style: none;
+
 }
-a{
-    display: block;
-    text-decoration: none;
-    
+.link-1{
+    flex:2;
 }
-a:hover{
-    text-decoration:underline ;
-    cursor:default;
+.link-2,
+.link-3{
+    flex: 1;
+}
+a:active,
+a:visited,
+a:focus{
+    color: #e5e7eb;
 }
