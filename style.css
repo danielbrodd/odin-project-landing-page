@@ -1,0 +1,43 @@
+
+body,
+html{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    align-content: center;
+}
+.hero{
+    font-size:30px;
+    font-weight: normal;
+    word-spacing: -9px;
+    justify-items: flex-start;
+}
+.hero .emphasis{
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 35px;
+    letter-spacing: 3px;
+    
+}
+links{
+    flex: 0 1 auto;
+    display: flex;
+    justify-self: flex-end;
+   
+}
+link{
+    list-style: none;
+}
+a{
+    display: block;
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration:underline ;
+    cursor:default;
+}
